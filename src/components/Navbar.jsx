@@ -14,7 +14,7 @@ const Navbar = () => {
 
        {/* menu */}
       <div>
-       <ul  className='hidden md:flex'>
+       <ul  className='hidden lg:flex'>
             <li>Home</li>
             <li>About Me</li>
             <li>Portfolio</li>
@@ -24,7 +24,7 @@ const Navbar = () => {
         </ul>
       </div>  
       {/* Hamburger */}
-      <div onClick={handleClick} className='md:hidden z-10'>
+      <div onClick={handleClick} className='lg:hidden z-10'>
             {!nav ? <FaBars className='text-2xl' /> : <FaTimes className='text-2xl' />}
         </div>    
 

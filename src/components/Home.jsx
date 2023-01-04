@@ -15,7 +15,7 @@ const Home = () => {
 
             </div>
         </div>
-        <div className='md:flex justify-between '>
+        <div className='lg:flex justify-between '>
             <div className='justify-start'>
                 <h2 className='text-5xl md:text-7xl font-bold py-2'>I'm</h2>
                 <h1 className='text-5xl font-bold py-4 md:text-7xl'>Magyar <span className='text-[#00ADB5]'>Màtè</span> </h1>
@@ -33,7 +33,7 @@ const Home = () => {
                 </div>
                 
             </div>
-            <div className='relative hidden md:flex'>
+            <div className='lg:relative hidden lg:flex'>
                 <img src={Image_background} alt="" className='w-[80%]' />
                 <img src={Image} alt="" className='absolute w-[80%]' style={{marginTop: '-100px'}}/>
             </div>
